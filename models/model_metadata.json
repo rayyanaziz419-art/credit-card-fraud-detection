@@ -1,0 +1,30 @@
+{
+    "model_name": "HistGradientBoosting",
+    "optimal_threshold": 0.55,
+    "default_threshold": 0.5,
+    "random_seed": 42,
+    "test_pr_auc": 1.0,
+    "test_roc_auc": 1.0,
+    "optimal_metrics": {
+        "threshold": 0.55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "true_positives": 30.0,
+        "false_positives": 0.0,
+        "false_negatives": 0.0,
+        "true_negatives": 1970.0,
+        "total_simulated_cost": 0.0
+    },
+    "input_features": [
+        "transaction_id",
+        "amount",
+        "transaction_hour",
+        "merchant_category",
+        "foreign_transaction",
+        "location_mismatch",
+        "device_trust_score",
+        "velocity_last_24h",
+        "cardholder_age"
+    ]
+}
